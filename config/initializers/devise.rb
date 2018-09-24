@@ -12,7 +12,7 @@ Devise.setup do |config|
 
    # This configuration is for Devise JWT.
    # config.jwt do |jwt|
-   #   # TODO: Assign this to environment variable before production deployment!
+   #
    #   jwt.secret = '708c06d3d76bc5a79d648c24490b329df65a7fcb1eb29a34d2b55df2c41d7232f15fda90dd2f6fa3fa5ea5367b23f54c346aec181374a156a25a363e2b217bee'
    #   jwt.dispatch_requests = [
    #       ['POST', %r{^/users/sign_in$}],
